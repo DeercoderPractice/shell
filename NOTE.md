@@ -1,14 +1,10 @@
-README
+NOTE
 ===
 
-This directory is used to store the useful linux documents from website
+1. Debug
+	+ We can use the `bash -x script.sh` to debug the script
+	+ We can also use the `set -x` and `set +x` to start and stop debugging in the code, this needs to be added in the source code
 
-The content includes but not limited the followings:
-
-1. Linux operation with useful skills
-
-2. Linux administration
-
-3. Commom tools of linux, installing and using
-
-4. Basic shell programming and linux command
+2. Test
+	+ Test 1
+	+ Test 2
