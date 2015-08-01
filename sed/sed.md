@@ -1,6 +1,8 @@
 SED NOTE
 ====
 
+## Learning Notes
+
 + `sed '/erors/p' example`, this is used for printing the line that contains the `erors` word, `p` parameters only gives the print option(But it will print the line twice, since it will print all the original line and the searched result)
 
 + `sed -n '/erors/p' example`, this used the option of -n, which means **silent mode**, in this mode, only print out the searched result, instead of the orignal text content
@@ -26,3 +28,8 @@ SED NOTE
 
 + We can use the `-f` option to specify the `*.sed` file so that multiple commands can be executed and saved in a file
 
+
+
+## Summary
+
++ The **sed** stream editor is a powerful command line tool, which can handle streams of data: it can take input lines from a pipe. This makes it fit for non−interactive use. The **sed** editor uses **vi**−like commands and accepts regular expressions.  The **sed** tool can read commands from the command line or from a script. It is often used to perform find−and−replace actions on lines containing a pattern.
