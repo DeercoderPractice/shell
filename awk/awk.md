@@ -1,6 +1,8 @@
 AWK NOTE
 ===
 
+## Learning Notes
+
 + awk takes the statement or description that describe the data, and then will give out the corresponding format of data, so it is a data-driven language, not a procedure-driven language.
 
 + `sort -rnk 5` means that sort by the 5th column, that is the percentage of the `df` output part
@@ -36,3 +38,8 @@ the above will use the `;` to seperate the items and newline with `--->` to sepe
 + Use `NR` to denote the record number that is being processed, this variable is the built-in variable that we should not change and will use by default
 
 + We can use the `=` to define our own variable, this can be a string or numeric value.
+
+
+## Summary
+
++ The most important thing here, for `awk`, however, is that it is sued for processing the result of file or command, it is used for splitting the result text file into some **fields** that will be represented by `$1`, `$2` or other values, we can use this field to represent the data flow and **select** some information from the source, or **add** some of our own information to the source, so that it can be displayed in a friendly form
