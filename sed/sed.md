@@ -13,7 +13,7 @@ SED NOTE
 
 + `sed '2,4d' example`, it will delete the line 2 to line 4 in example as the output of the command, **NOTE**: Tthe orignal file is not changed during this command, since it will never go back to the file 
 
-+ `sed '3,$d' example`, it will display the  line until the end of the line 3(which means the line 1 and line 2)
++ `sed '3,$d' example`, it will display the  line until the end of the line 3(which means the line 1 and line 2), because it means that it will **delete** the line from 3 to the end($)
 
 + `sed -n '/a text/,/This/p' example`, it will display the first line that contains the string `a text`, and ends with the line the contains the content `This`.
 
