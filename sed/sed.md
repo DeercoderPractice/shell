@@ -23,7 +23,7 @@ SED NOTE
 
 + `sed 's/$/EOL/' example`, will replace the end character with the 'EOL' word
 
-+ `sed -e 's/erors/errors/g' -e 's/last/final/g' example`, will support multiple search and replace with the `-e` option
++ `sed -e 's/erors/errors/g' -e 's/last/final/g' example`, will support multiple search and replace with the `-e` option. **NOTE**: only supports the search and replace, not other commands, othewise it will error
 
 
 + We can use the `-f` option to specify the `*.sed` file so that multiple commands can be executed and saved in a file
