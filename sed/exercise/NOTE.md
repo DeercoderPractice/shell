@@ -13,3 +13,5 @@ NOTE
 		+ using pipe to combine the `ls` and `sed` command
 		+ use `-n` option for printing only the selected result
 		+ use the `^.a` instead of `^a` to represent the first two letters
+
++ In ex5.sh, I used a new command that is not in the book, but it is listed in the table, that is `sed /man/i XXXX`, this command is used for inserting some line before the matched string's line. For example, here it is used for inserting a line before the line that contains the string `man`. It is no need to use other options like `s/` to search and replace, that will make it more complex
